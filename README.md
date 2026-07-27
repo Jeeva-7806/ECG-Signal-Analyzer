@@ -1,15 +1,16 @@
-# ECG-Signal-Analyzer
 # ECG Signal Analyzer
 
-A Python-based biomedical signal processing project that analyzes real ECG signals from the MIT-BIH Arrhythmia Database.
+## Overview
+This project analyzes real ECG signals from the MIT-BIH Arrhythmia Database using Python. It filters ECG signals, detects R-peaks, calculates heart rate (BPM), and performs FFT analysis.
 
 ## Features
-- ECG signal visualization
-- Butterworth filtering
+- Read real ECG data
+- Butterworth low-pass filtering
 - R-peak detection
 - Heart rate (BPM) calculation
-- FFT frequency spectrum analysis
-- Real ECG data processing using WFDB
+- Fast Fourier Transform (FFT)
+- ECG waveform visualization
+- Frequency spectrum analysis
 
 ## Technologies Used
 - Python
@@ -17,14 +18,26 @@ A Python-based biomedical signal processing project that analyzes real ECG signa
 - SciPy
 - Matplotlib
 - WFDB
-- Digital Signal Processing (DSP)
 
 ## Dataset
 MIT-BIH Arrhythmia Database (Record 100)
 
-## Output
-- Original ECG signal
-- Filtered ECG signal
-- R-Peak detection
-- Heart Rate calculation
-- FFT spectrum visualization
+## Results
+- Heart Rate: ~74.48 BPM
+- R-peaks detected successfully
+- FFT spectrum generated
+- Filtered ECG visualization
+
+## How to Run
+
+1. Install the required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+2. Run the program:
+
+```bash
+python main.py
+```
