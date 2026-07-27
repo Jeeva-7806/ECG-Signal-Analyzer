@@ -88,26 +88,3 @@ ECG-Signal-Analyzer
 
 ---
 
-## How to Run
-
-### Install dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### Run the program
-
-```bash
-python main.py
-```
-
----
-
-## Author
-
-**Iyappan E**
-
-Electronics and Communication Engineering (ECE)
-
-Python | Digital Signal Processing | Biomedical Signal Processing
